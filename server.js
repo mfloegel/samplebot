@@ -48,8 +48,11 @@ bot.dialog('/picture', [
     function (session, results) {
         if (results.response) {
         var msg = new builder.Message(session)
-        .text("You said yes")
-            
+        .addAttachment({
+        contentUrl: 'https://docs.botframework.com/en-us/images/faq-overview/botframework_overview_july.png',
+        contentType: 'image/png',
+        name: 'BotFrameworkOverview.png'
+    });    
             //...fill in with an image attachment that you like...
 
         session.endDialog(msg);
