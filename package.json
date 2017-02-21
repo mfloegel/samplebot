@@ -6,7 +6,9 @@
   "dependencies": {
     "botbuilder": "^3.5.4"  
   },
-  
+  "devDependencies": {
+      "restify": "^4.1.1"
+  },  
   "scripts": {
         "start": "node index.js" 
     },
