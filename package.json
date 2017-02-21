@@ -2,9 +2,9 @@
   "name": "botbuilder-sample-carouselcards",
   "version": "1.0.0",
   "description": "Bot Builder Sample - Carousel Cards",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "MIT",
